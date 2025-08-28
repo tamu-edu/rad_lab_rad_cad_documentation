@@ -1,0 +1,57 @@
+site_name: RAD CAD
+site_url: https://radcaddocumentation.com
+
+
+extra_css:
+  - stylesheets/callouts.css
+
+
+theme:
+  name: material
+  palette: 
+    - scheme: default #Light mode
+      primary: amber
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate #Dark mode
+      primary: amber
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  logo : images/logo.png
+  features:
+    - navigation.expand
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Basic Geometry Features :
+    - Sphere Feature: basic-geometry-features/sphere-feature.md
+    - Box Feature: basic-geometry-features/box-feature.md
+    - Cylinder Feature: basic-geometry-features/cylinder-feature.md
+    - 8020 Feature: basic-geometry-features/8020-feature.md
+  - Sheet Metal Features :
+    - Base Sheet Feature : sheet-metal-features/base-sheet-feature.md
+    - Bump Bend Feature : sheet-metal-features/bump-bend-feature.md
+    - Hole Pattern Feature : sheet-metal-features/hole-pattern-feature.md
+    - Rivets Feature : sheet-metal-features/rivets-feature.md
+    - Tab Feature : sheet-metal-features/tab-feature.md
+  - Assembly Features :
+    - Cross Drill Feature : assembly-features/cross-drill-feature.md
+    - Assembly Body Cut Feature : assembly-features/assembly-body-cut-feature.md
+    - Assembly Body Add Feature : assembly-features/assembly-body-add-feature.md
+  - Isogrid Features :
+    - Flat Isogrid Feature: isogrid-features/flat-isogrid-feature.md
+    - Spherical Isogrid Feature: isogrid-features/spherical-isogrid-feature.md
+    - Cylindrical Isogrid Feature: isogrid-features/cylindrical-isogrid-feature.md
+    - Conical Isogrid Feature: isogrid-features/conical-isogrid-feature.md
+  - 3D Printing Features :
+    - Heat Insert Feature : 3D-printing-features/heat-inserts-feature.md
+    - Print in Place Hinge Feature : 3D-printing-features/print-in-place-hinge-feature.md
+    - RAD Logo Feature : 3D-printing-features/rad-logo-feature.md
+
+
+  

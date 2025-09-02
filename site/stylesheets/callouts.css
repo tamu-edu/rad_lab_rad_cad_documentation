@@ -1,0 +1,126 @@
+/* =========================================================
+   Image Annotations (per-page tunable via CSS variables)
+   - Fixed-size callout icons (no distortion with image size)
+   - Per-page control: stroke, colors, font, icon size
+   - Reliable hover/focus via pointer-events on nested SVGs
+   ========================================================= */
+
+/* Wrapper */
+.image-annot {
+  position: relative;
+  display: flex;
+  justify-content: center;     /* center the image */
+
+  /* ---- Per-page knobs (override in your .md inline style) ---- */
+  --image-max-width: 300px;    /* image width cap */
+  --overlay-width: 500px;      /* overlay logical width */
+
+  --callout-size: 22px;        /* icon box size (fixed on-screen) */
+  --callout-stroke: 2px;       /* circle outline thickness */
+  --callout-font-size: 10px;   /* number size */
+
+  --callout-stroke-color: red; /* default circle color */
+  --callout-text-color: red;   /* default number color */
+  --callout-stroke-hover: blue;/* hover circle color */
+  --callout-text-hover: blue;  /* hover number color */
+}
+
+/* The image itself */
+.image-annot img {
+  display: block;
+  max-width: var(--image-max-width);
+  height: auto;
+}
+
+/* The overlay that positions callouts (outer SVG) */
+.image-annot > svg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); /* align overlay center to image */
+  width: var(--overlay-width);
+  height: 100%;
+  overflow: visible;           /* allow callouts outside */
+  pointer-events: none;        /* overlay ignores pointer events */
+}
+
+/* Links (each callout is an <a> wrapping a nested SVG) */
+.image-annot a {
+  pointer-events: auto;        /* re-enable events for links */
+  cursor: pointer;
+  text-decoration: none;
+  transition: color .2s ease, fill .2s ease, stroke .2s ease;
+  outline: none;
+}
+
+/* Nested callout SVG: fixed pixel size so it never stretches */
+.image-annot .callout-svg {
+  width: var(--callout-size);
+  height: var(--callout-size);
+  overflow: visible;
+  pointer-events: auto;        /* ensure hover/click works */
+}
+
+/* Optional: a transparent rect as a reliable hit target
+   (use <rect class="hit" width="100%" height="100%"/>) */
+.image-annot .callout-svg rect.hit {
+  fill: transparent;
+  pointer-events: auto;
+}
+
+/* Callout graphics */
+.image-annot .callout-svg circle {
+  fill: transparent;
+  stroke: var(--callout-stroke-color);
+  stroke-width: var(--callout-stroke);
+  vector-effect: non-scaling-stroke; /* keep stroke crisp */
+}
+
+.image-annot .callout-svg text {
+  fill: var(--callout-text-color);
+  font-size: var(--callout-font-size);
+  text-anchor: middle;
+  dominant-baseline: middle;
+  stroke: none;
+  user-select: none;
+}
+
+/* Hover + keyboard focus match */
+.image-annot a:hover .callout-svg circle,
+.image-annot a:focus-visible .callout-svg circle {
+  stroke: var(--callout-stroke-hover);
+}
+
+.image-annot a:hover .callout-svg text,
+.image-annot a:focus-visible .callout-svg text {
+  fill: var(--callout-text-hover);
+}
+
+/* ---------------------------------------------------------
+   Legacy support: if a callout uses <a> with circle/text
+   directly (no nested .callout-svg), apply the same theming.
+   --------------------------------------------------------- */
+.image-annot a > circle {
+  fill: transparent;
+  stroke: var(--callout-stroke-color);
+  stroke-width: var(--callout-stroke);
+  vector-effect: non-scaling-stroke;
+}
+
+.image-annot a > text {
+  fill: var(--callout-text-color);
+  font-size: var(--callout-font-size);
+  text-anchor: middle;
+  dominant-baseline: middle;
+  stroke: none;
+}
+
+.image-annot a:hover > circle,
+.image-annot a:focus-visible > circle {
+  stroke: var(--callout-stroke-hover);
+}
+
+.image-annot a:hover > text,
+.image-annot a:focus-visible > text {
+  fill: var(--callout-text-hover);
+}

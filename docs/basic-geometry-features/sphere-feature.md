@@ -8,7 +8,7 @@ The sphere feature creates a sphere centered on the origin. There are options to
 
 ## Property Manager Page
 
-The Property Manager Page for the box feature is shown below:
+The Property Manager Page for the sphere feature is shown below:
 
 <div class="image-annot"
      style="--callout-stroke: 2px;

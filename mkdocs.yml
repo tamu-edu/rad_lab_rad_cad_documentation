@@ -22,8 +22,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   logo : images/logo.png
-  features:
-    - navigation.expand
+  # features:
+  #   - navigation.expand
 
 nav:
   - Home: index.md

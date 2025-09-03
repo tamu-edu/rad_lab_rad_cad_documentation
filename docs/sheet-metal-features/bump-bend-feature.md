@@ -1,4 +1,10 @@
-# Base Sheet Feature
+# Bump Bend Feature
+
+<p align="left">
+<img src="/demo-images/bump1.png" width="225">
+  <img src="/demo-images/bump2.png" width="225">
+  <img src="/demo-images/bump3.png" width="225">
+</p>
 
 ## Feature Overview
 
@@ -153,6 +159,6 @@ There are two types of bump bends, internal and external. "Internal to Perfect B
 
 ## Tips and General Thoughts
 
-1) If you want to be able to fold and unfold these bump bends like any other sheet metal part, you will need to export this file to a step file and then import it again as a solidworks part. After that you can convert it to sheet metal and it will act like any other sheet metal part. The downside is that you loose the ability to make parametric adjustments to the bump bend
+1. If you want to be able to fold and unfold these bump bends like any other sheet metal part, you will need to export this file to a step file and then import it again as a solidworks part. After that you can convert it to sheet metal and it will act like any other sheet metal part. The downside is that you loose the ability to make parametric adjustments to the bump bend
 
-2) It is possible to design bump bends with this tool that are not manufacturable. Make sure that whoever you are using to make the sheet metal parts is able to manufacture your part before getting too invested in it
+2. It is possible to design bump bends with this tool that are not manufacturable. Make sure that whoever you are using to make the sheet metal parts is able to manufacture your part before getting too invested in it

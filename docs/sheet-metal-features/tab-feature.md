@@ -1,8 +1,14 @@
-# Rivets Feature
+# Tab Feature
+
+<p align="left">
+<img src="/demo-images/tab1.png" width="200">
+  <img src="/demo-images/tab2.png" width="250">
+  <img src="/demo-images/tab3.png" width="250">
+</p>
 
 ## Feature Overview
 
-The tab feature allows you to instantly make sheet metal tabs in a repeatable way. It works on 0.090" to 0.125" aluminum sheet metal but has not yet been tested on anything else.
+The tab feature allows you to instantly make sheet metal tabs in a repeatable way. They break off very easily on 0.090" to 0.125" aluminum sheet metal but has not yet been tested on anything else.
 
 Sheet metal tabs are used when a part does not have an edge parallel to the bend edge. These tabs act as a reference gauge when bending the sheet metal part. They then come off very easily after the part is bent. For the sheet metal they have been tested on so far, they were easily fatigue-bent off
 
@@ -10,7 +16,7 @@ Sheet metal tabs are used when a part does not have an edge parallel to the bend
 
 ## Property Manager Page
 
-The Property Manager Page for the rivet feature is shown below:
+The Property Manager Page for the tab feature is shown below:
 
 <div class="image-annot"
      style="--callout-stroke: 2px;
@@ -123,8 +129,8 @@ The last option is "custom offsets" which lets you adjust directly where the tab
 
 ## Tips and General Thoughts
 
-1) The edge being tabbed can be curved or straight. If it is curved, you will likely need to adjust the tab offsets or connection parameters to force it to fully overlap with the base sheet. 
+1. The edge being tabbed can be curved or straight. If it is curved, you will likely need to adjust the tab offsets or connection parameters to force it to fully overlap with the base sheet. 
 
 For a non-linear edge this feature treats the two endpoints of the edge as a linear edge and uses that for reference
 
-2) If you need a demonstration of what the tab feature does, create a simple sheet metal part with a bend in it with an edge flange. Then cut angles into the outer edge of that flange to make the end of the flange non-linear or not parallel to the bend edge. Upload it to a software like [oshcut's instant sheet metal analyzer]("https://app.oshcut.com/cart"). It will give you an error that says the part is not manufacturable. Then add a tab to one of those non-parallel edges and set it to be parallel to the bend edge and upload it again. Now it will show that the part is manufactuable.
+2. If you need a demonstration of what the tab feature does, create a simple sheet metal part with a bend in it with an edge flange. Then cut angles into the outer edge of that flange to make the end of the flange non-linear or not parallel to the bend edge. Upload it to a software like [oshcut's instant sheet metal analyzer]("https://app.oshcut.com/cart"). It will give you an error that says the part is not manufacturable. Then add a tab to one of those non-parallel edges and set it to be parallel to the bend edge and upload it again. Now it will show that the part is manufactuable.

@@ -284,9 +284,7 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -696,9 +694,7 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -812,9 +808,7 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -951,9 +945,7 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
@@ -1164,6 +1156,12 @@
 
 
 <h1 id="base-sheet-feature">Base Sheet Feature</h1>
+<p align="left">
+<img src="/demo-images/base-sheet3.png" width="175">
+  <img src="/demo-images/base-sheet1.png" width="225">
+  <img src="/demo-images/base-sheet2.png" width="175">
+</p>
+
 <h2 id="feature-overview">Feature Overview</h2>
 <p>The base sheet feature creates a sheet metal base centered at the origin. It does this by creating a box and then converting it to sheet metal. After it is created it acts the exact same way any other sheet metal part would.</p>
 <hr />
@@ -1228,13 +1226,26 @@
 <p>The overall material thickness of the base sheet in the y direction</p>
 <hr />
 <h2 id="tips-and-general-thoughts">Tips and General Thoughts</h2>
-<p>1) This feature is a hybrid between a custom feature and a macro. This is a brief description of how it works in case it is relevent for debugging any issues: </p>
-<p>After entering the desired parameter values for width, height, and material thickness, the base sheet feature will start to get created. First Aggie Toolbox makes a non-sheet metal solid rectangular prism with the desired dimensions. It then selects the top face of the rectangular prism and converts it to sheet metal. This is why the design tree always shows a convert solid feature below the base sheet feature. This extra convert to sheet metal process is because SolidWorks does not easily allow for the direct create of a sheet metal part and this was an easier and more stable process to implement.</p>
-<p>2) After creation, if the feature is edited and the material thickness is changed, after the base sheet updates it will also go into the sheet metal folder in the design tree and change the material thickness stored there. This will update the material thickness for the entire entire part. This process of changing the sheet metal folder tends to cause the part to flicker as a graphical update when it the sheet metal folder updates.</p>
-<p>3) You should never have two base sheets in the same part. Since base sheet is meant to be the starting point for a sheet metal part, it is created in the same location and orientation every time. Having two base sheets in one part means they will overlap and could cause some strange issues.</p>
-<p>4) When you edit the material thickness of a base sheet, there will be a short graphical update where the base sheet seems to move. This is a result of this feature updating the Sheet Metal's thickness and is nothing to be worried about. The base sheet will stay centered on the origin.</p>
-<p>5) If you delete the convert solid after the base sheet, the base sheet will act like a regular extrusion. This could cause problems or confusion later so best practice is to just delete both the base sheet and the convert solid together if you delete the convert solid.</p>
-<p>6) This is a bit of an odd one, but if you delete the base sheet feature it is best practice to make sure you also delete the Sheet Metal folder. If you don't delete the sheet metal folder and insert a new base sheet and then try to edit the material thickness of the new base sheet, sometimes it will not update. This issue can be fixed by deleting the base sheet as well as the Sheet Metal folder and then inserting a fresh base sheet. I honestly doubt this ever causes any problems for anyone, but it's a problem I ran into when stress testing this feature so I wanted to include it here.</p>
+<ol>
+<li>
+<p>This feature is a hybrid between a custom feature and a macro. This is a brief description of how it works in case it is relevent for debugging any issues: After entering the desired parameter values for width, height, and material thickness, the base sheet feature will start to get created. First the feature makes a non-sheet metal solid rectangular prism with the desired dimensions. It then selects the top face of the rectangular prism and converts it to sheet metal. This is why the design tree always shows a convert solid feature below the base sheet feature. This extra convert to sheet metal process is because SolidWorks does not easily allow for the direct create of a sheet metal part and this was an easier and more stable process to implement.</p>
+</li>
+<li>
+<p>After creation, if the feature is edited and the material thickness is changed, after the base sheet updates it will also go into the sheet metal folder in the design tree and change the material thickness stored there. This will update the material thickness for the entire entire part. This process of changing the sheet metal folder tends to cause the part to flicker as a graphical update when it the sheet metal folder updates.</p>
+</li>
+<li>
+<p>You should never have two base sheets in the same part. Since base sheet is meant to be the starting point for a sheet metal part, it is created in the same location and orientation every time. Having two base sheets in one part means they will overlap and could cause some strange issues.</p>
+</li>
+<li>
+<p>When you edit the material thickness of a base sheet, there will be a short graphical update where the base sheet seems to move. This is a result of this feature updating the Sheet Metal's thickness and is nothing to be worried about. The base sheet will stay centered on the origin.</p>
+</li>
+<li>
+<p>If you delete the convert solid after the base sheet, the base sheet will act like a regular extrusion. This could cause problems or confusion later so best practice is to just delete both the base sheet and the convert solid together if you delete the convert solid.</p>
+</li>
+<li>
+<p>This is a bit of an odd one, but if you delete the base sheet feature it is best practice to make sure you also delete the Sheet Metal folder. If you don't delete the sheet metal folder and insert a new base sheet and then try to edit the material thickness of the new base sheet, sometimes it will not update. This issue can be fixed by deleting the base sheet as well as the Sheet Metal folder and then inserting a fresh base sheet. I honestly doubt this ever causes any problems for anyone, but it's a problem I ran into when stress testing this feature so I wanted to include it here.</p>
+</li>
+</ol>
 
 
 
@@ -1283,7 +1294,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>

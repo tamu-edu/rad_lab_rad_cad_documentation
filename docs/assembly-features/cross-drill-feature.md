@@ -1,5 +1,11 @@
 # Cross Drill Feature
 
+<p align="left">
+  <img src="/demo-images/cross1.png" width="225">
+  <img src="/demo-images/cross2.png" width="250">
+  <img src="/demo-images/cross3.png" width="200">
+</p>
+
 ## Feature Overview
 
 The cross drill feature is used in tandem with the hole pattern feature. If you have two parts lined up in an assembly, it will use the hole pattern's geometry to cut those holes into another part. To use this feature, you need to be in an assembly and edit in context the part that you want to cut into.
@@ -8,7 +14,7 @@ The cross drill feature is used in tandem with the hole pattern feature. If you 
 
 ## Property Manager Page
 
-The Property Manager Page for the sphere feature is shown below:
+The Property Manager Page for the cross drill feature is shown below:
 
 <div class="image-annot"
      style="--callout-stroke: 2px;
@@ -91,7 +97,7 @@ The body in the currently edited part that cross drill should cut through. This 
 
 ## Tips and General Thoughts
 
-1) If you would like to update the cross drill feature after moving things around, enter the part in edit mode again and click edit on the feature. Once you click the check mark it will update the location of the cross drill
+1. If you would like to update the cross drill feature after moving things around, enter the part in edit mode again and click edit on the feature. Once you click the check mark it will update the location of the cross drill
 
-2) If you want to guarantee that the cross drilled holes never move, you should break the reference in the part
+2. If you want to guarantee that the cross drilled holes never move, you should break the reference in the part
 

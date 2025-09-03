@@ -1,8 +1,16 @@
 # Box Feature
 
+<p align="left">
+  <img src="/demo-images/box3.png" width="250">
+  <img src="/demo-images/box1.png" width="200">
+  <img src="/demo-images/box2.png" width="250">
+</p>
+
 ## Feature Overview
 
 The box feature creates a box using width height and depth parameters. It also centers that box on the origin. This can be a very useful starting point for a part
+
+This is not created as a joining body, it will be created as its own body even if it overlaps another body on creation
 
 ---
 
@@ -69,5 +77,5 @@ The depth parameter controls the size of the box in the y direction
 
 ## Tips and General Thoughts
 
-1) This feature isn't really useful for much besides as a part's starting point. I wouldn't recommend using it for anything but
+1. This feature is good for creating a starting box centered about the origin.
 

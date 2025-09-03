@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#installation-instructions" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -256,6 +261,19 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -267,6 +285,41 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation Instructions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uninstallation-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uninstallation Instructions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -287,9 +340,7 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -426,9 +477,7 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -588,9 +637,7 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -704,9 +751,7 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -843,9 +888,7 @@
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
@@ -962,6 +1005,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation Instructions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uninstallation-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Uninstallation Instructions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -978,11 +1047,19 @@
 
   <h1>Installation</h1>
 
-<p>The RAD CAD installer works by adding dynamic link library (dll) files to the SolidWorks source files. This unfortunately requires administrative privileges. First download the zip file found below, then there are two options for installation.</p>
-<p>Option one is to run the file called RUN_ME_as admin_to_install as admin. This will likely bring up a warning not to trust this program since it is a raw batch file, but you have to click run anyways and it will work. To find the "run anyways" button you may need to click a "more info" or some similar option on warning page that pops up</p>
-<p>Option two is to open the RUN_ME file as a text file. This will let you see what the contents of the batch file are and verify that there is nothing malicious within it. You can then save this text file as a .bat file of any name. If you then put that .bat file in the folder where the RUN_ME file is and run it as admin it will install RAD CAD. This is essentially the exact same process as option one but it lets you verify that nothing sketchy is happening.
+<p>The RAD CAD installer works by adding dynamic link library (dll) files to the SolidWorks source files. This requires administrative privileges. </p>
+<p>To start, download the zip file <a href="../downloadables/RAD_CAD_Installer_V3.5.zip">here</a>.</p>
+<p align="center">
+  <img src="/demo-images/add-in.png" width="300">
+</p>
+
+<h2 id="installation-instructions">Installation Instructions</h2>
+<p>Once you have downloaded and unzipped the zip file, find the file called "RUN_ME_as_admin_to_install." If you would like to verify that this file contains nothing malicious, you can open it as a text file to see its contents. All it does is register this add in with SolidWorks and remove any old versions of the add in.</p>
+<p>Run this file as admin. This will likely bring up a warning not to trust this program since it is a raw batch file, but you have to click run anyways and it will work. To find the "run anyways" button you may need to click a "more info" or some similar option on the warning page that pops up. This should install RAD CAD into SolidWorks!</p>
+<p>If you do not see it in SolidWorks by default, you may need to enable it in the add-in manager.
 ​</p>
-<p>To download the latest version click <a href="../downloadables/RAD_CAD_V3.2.zip">here</a></p>
+<h2 id="uninstallation-instructions">Uninstallation Instructions</h2>
+<p>Similar to installation, simply find the file titled "RUN_ME_as_admin_to_UNinstall." Run this file with admin in the same release folder and it will uninstall RAD CAD from your SolidWorks</p>
 
 
 
@@ -1031,7 +1108,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.expand"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.92b07e13.min.js"></script>

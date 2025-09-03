@@ -1,8 +1,16 @@
 # Flat Isogrid Feature
 
+<p align="left">
+  <img src="/demo-images/flat-iso1.png" width="225">
+  <img src="/demo-images/flat-iso2.png" width="175">
+  <img src="/demo-images/flat-iso3.png" width="260">
+</p>
+
 ## Feature Overview
 
 The flat isogrid feature automatically cuts isogrid into a flat surface. There are many ways this can be customized to be at different angles, with different sized isogrid patterns, or different types of cutting. 
+
+The perimeter of the face isogrid is being added to cannot involve a spline or the isogrid will not work.
 
 ---
 
@@ -228,8 +236,6 @@ Cut depth is the depth that the cutting bodies go into the material. By default 
 ---
 
 ## Tips and General Thoughts
-
-The isogrid patterns are by far the most complex custom feature within RAD CAD. Because of this there can be some problems or confusion in using it, but it also means there are a lot of different ways to use it that can be useful
 
 1. I recommend always leaving the "preview seed only" option checked unless you know it won't take very long to render the preview. It saves a lot of time when previewing and you usually don't need to see the full pattern to get an idea of what it will look like
 

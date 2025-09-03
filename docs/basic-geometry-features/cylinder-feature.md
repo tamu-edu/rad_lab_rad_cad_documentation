@@ -1,14 +1,22 @@
 # Cylinder Feature
 
+<p align="left">
+  <img src="/demo-images/cylinder1.png" width="250">
+  <img src="/demo-images/cylinder2.png" width="200">
+  <img src="/demo-images/cylinder3.png" width="250">
+</p>
+
 ## Feature Overview
 
 The cylinder feature creates a cylinder centered at the origin.
+
+This is not created as a joining body, it will be created as its own body even if it overlaps another body on creation
 
 ---
 
 ## Property Manager Page
 
-The Property Manager Page for the box feature is shown below:
+The Property Manager Page for the cylinder feature is shown below:
 
 <div class="image-annot"
      style="--image-max-width: 300px;
@@ -61,6 +69,6 @@ The height of the cylinder
 
 ## Tips and General Thoughts
 
-1) This feature is good for creating a starting cylinder centered about the origin
+1. This feature is good for creating a starting cylinder centered about the origin.
 
 

@@ -1,8 +1,16 @@
 # 8020 Feature
 
+<p align="left">
+  <img src="/demo-images/80201.png" width="225">
+  <img src="/demo-images/80202.png" width="175">
+  <img src="/demo-images/80203.png" width="260">
+</p>
+
 ## Feature Overview
 
-The 8020 feature creates 8020 extrusion centered at the origin. The edge faces of the 8020 are all parallel to each other
+The 8020 feature creates 8020 extrusion centered at the origin. 8020 extrusion is aluminum extrusion often used for prototyping. The edge faces of this 8020 feature are all parallel to each other. There are two types of 8020 in this feature: 10 series and 15 series.
+
+This is not created as a joining body, it will be created as its own body even if it overlaps another body on creation
 
 ---
 
@@ -61,8 +69,8 @@ The type of 8020. Our lab typically only uses 10 or 15 series so that is all tha
 
 ## Tips and General Thoughts
 
-1) If you need 2x1 or 2x2 geometries, you could either use this feature and then mirror the bodies, or use the mcmaster downloads
+1. If you need 2x1 or 2x2 geometries, you could either use this feature and then mirror the bodies, or use the mcmaster downloads.
 
-2) this feature is mainly useful for its easily adjustable length
+2. this feature is mainly useful for its easily adjustable length.
 
 

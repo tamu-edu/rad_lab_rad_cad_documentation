@@ -1,8 +1,16 @@
 # Sphere Feature
 
+<p align="left">
+  <img src="/demo-images/sphere1.png" width="200">
+  <img src="/demo-images/sphere2.png" width="250">
+  <img src="/demo-images/sphere3.png" width="200">
+</p>
+
 ## Feature Overview
 
 The sphere feature creates a sphere centered on the origin. There are options to make it hollow or a partial sphere
+
+This is not created as a joining body, it will be created as its own body even if it overlaps another body on creation
 
 ---
 
@@ -83,5 +91,5 @@ The polar angle is the cone-ish angle of the sphere in spherical coordinates. It
 
 ## Tips and General Thoughts
 
-1) This feature is good for creating a starting sphere centered about the origin
+1. This feature is good for creating a starting sphere centered about the origin.
 

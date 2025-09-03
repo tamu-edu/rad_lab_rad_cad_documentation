@@ -1,5 +1,11 @@
 # Hole Pattern Feature
 
+<p align="left">
+<img src="/demo-images/hole1.png" width="225">
+  <img src="/demo-images/hole2.png" width="225">
+  <img src="/demo-images/hole3.png" width="225">
+</p>
+
 ## Feature Overview
 
 The hole pattern feature allows you to make hole patterns on the edges of sheet metal parts. This is most useful for creating rivet holes to attach two sheet metal parts together. There are many different types of hole patterns avaliable within this feature
@@ -195,8 +201,8 @@ Adding a powder coat offset will work the same regardless of hole diameter type
 
 ## Tips and General Thoughts
 
-1) Hole pattern assumes the the edge you are using as an edge reference is perpendicular to the other two edges connected to it. Essentially it assumes you are hole patterning on the edge of a rectangle. This is the assumption it uses to calculate how many holes to make in the pattern and how far the pattern should extend before it gets closer than 2 * material thickness to an edge. If you are hole patterning an edge that does not fit this assumption, you might need to manually make sure a hole does not get cut too close to an edge.
+1. Hole pattern assumes the the edge you are using as an edge reference is perpendicular to the other two edges connected to it. Essentially it assumes you are hole patterning on the edge of a rectangle. This is the assumption it uses to calculate how many holes to make in the pattern and how far the pattern should extend before it gets closer than 2 * material thickness to an edge. If you are hole patterning an edge that does not fit this assumption, you might need to manually make sure a hole does not get cut too close to an edge.
 
-2) If you are trying to get two part's hole patterns to line up in an assembly so you can put rivets through them, you should hole pattern one part and use cross drill on the other part to guarantee that they line up correctly. More on this in the cross drill documentation
+2. If you are trying to get two part's hole patterns to line up in an assembly so you can put rivets through them, you should hole pattern one part and use cross drill on the other part to guarantee that they line up correctly. More on this in the cross drill documentation
 
-3) The automatic spacing for hole patterns is to have two times material thickness between each hole. However, based on your material thickness, rivet type, and pattern type, this may be too close together for every rivet to fit. You should use the rivet feature to ensure that the spacing is fine and adjust paramters accordingly
+3. The automatic spacing for hole patterns is to have two times material thickness between each hole. However, based on your material thickness, rivet type, and pattern type, this may be too close together for every rivet to fit. You should use the rivet feature to ensure that the spacing is fine and adjust paramters accordingly

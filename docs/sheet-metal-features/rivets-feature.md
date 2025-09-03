@@ -1,5 +1,11 @@
 # Rivets Feature
 
+<p align="left">
+<img src="/demo-images/rivets1.png" width="250">
+  <img src="/demo-images/rivets2.png" width="200">
+  <img src="/demo-images/rivets3.png" width="200">
+</p>
+
 ## Feature Overview
 
 The rivet feature is used to insert rivets into an existing hole feature. This can be useful to confirm hole spacing will allow for rivet insertion. It is also useful to see if the rivet mandrel will fit into the assembly you have created to make sure your assembly is assemble-able
@@ -111,12 +117,12 @@ You can also select a type of rivet to use directly if you want to look at what 
 
 ## Tips and General Thoughts
 
-1) This feature approximates rivets by only using three cylinders. Real rivets of this kind have a domed head that is not modeled here.
+1. This feature approximates rivets by only using three cylinders. Real rivets of this kind have a domed head that is not modeled here.
 
-2) The rivet feature is meant to be used to check if rivets will fit or to animate the process of putting in rivets to an assembly. They should not be in parts that are sent to be manufactured so be sure to suppress or delete them before sending files to have parts be created.
+2. The rivet feature is meant to be used to check if rivets will fit or to animate the process of putting in rivets to an assembly. They should not be in parts that are sent to be manufactured so be sure to suppress or delete them before sending files to have parts be created.
 
-3) The rivet feature can be used within a part, but it can also be used from a different part similar to how cross drill is used. If you set up an assembly and edit a part in context, you can create rivets based on hole patterns in other parts. Aggie Toolbox will do all the math behind the scenes to make sure the rivets in the edited part line up with the hole pattern in the external part. This can be used to make rivets as a separate part and make it easier to animate assemblies to show how rivets can be used in the assembly process.
+3. The rivet feature can be used within a part, but it can also be used from a different part similar to how cross drill is used. If you set up an assembly and edit a part in context, you can create rivets based on hole patterns in other parts. Aggie Toolbox will do all the math behind the scenes to make sure the rivets in the edited part line up with the hole pattern in the external part. This can be used to make rivets as a separate part and make it easier to animate assemblies to show how rivets can be used in the assembly process.
 
-4) If you are not using aluminum domed head blind rivets, be very careful when using the preset rivet types. Not all rivets with the same diameter are the same, and this might cause you to design parts that cannot actually be riveted together. If you are unsure if your rivets are the same as the preset ones in RAD CAD, I would recommend entering your values in the custom rivets option just to be safe.
+4. If you are not using aluminum domed head blind rivets, be very careful when using the preset rivet types. Not all rivets with the same diameter are the same, and this might cause you to design parts that cannot actually be riveted together. If you are unsure if your rivets are the same as the preset ones in RAD CAD, I would recommend entering your values in the custom rivets option just to be safe.
 
-5) Rivets are not a joining body, meaning that even if they touch your sheet they should not fuse into it as one body
+5. Rivets are not a joining body, meaning that even if they touch your sheet they should not fuse into it as one body

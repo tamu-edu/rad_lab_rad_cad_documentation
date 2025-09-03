@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="/demo-images/banner.png" width="750">
+  <img src="{{ base_url }}/demo-images/banner.png" width="750">
 </p>
 
 Welcome to RAD CAD! 

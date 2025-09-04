@@ -1,9 +1,9 @@
 # Tab Feature
 
 <p align="left">
-<img src="/demo-images/tab1.png" width="200">
-  <img src="/demo-images/tab2.png" width="250">
-  <img src="/demo-images/tab3.png" width="250">
+<img src="demo-images/tab1.png" width="200">
+  <img src="demo-images/tab2.png" width="250">
+  <img src="demo-images/tab3.png" width="250">
 </p>
 
 ## Feature Overview
@@ -26,7 +26,7 @@ The Property Manager Page for the tab feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/tab-pmp.png" alt="Sphere Property Manager Page">
+  <img src="images/tab-pmp.png" alt="Sphere Property Manager Page">
 
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
 

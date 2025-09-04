@@ -1,9 +1,9 @@
 # Print-In-Place Hinge Feature
 
 <p align="left">
-  <img src="/demo-images/hinge1.png" width="150">
-  <img src="/demo-images/hinge2.png" width="175">
-  <img src="/demo-images/hinge3.png" width="300">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/hinge1.png" width="150">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/hinge2.png" width="175">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/hinge3.png" width="300">
 </p>
 
 
@@ -27,7 +27,7 @@ The Property Manager Page for the print-in-place hinge feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/hinge-pmp.png" alt="Cylinder Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/hinge-pmp.png" alt="Cylinder Property Manager Page">
 
   <!-- Scalable overlay aligned to the image -->
   <svg viewBox="0 0 120 110" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
@@ -121,7 +121,7 @@ This is the edge that the hinge references for creation. By default it will be r
 
 ### <a id="param-3"></a>3) Tolerance
 
-This is the overall tolerance of the hinge. It is the distance between all of the internal hinge features. 0.01 in works well for most applications, but if you want to try different options out you should print one of these [Tolerance Tests]("https://www.printables.com/model/815843-print-in-place-tolerance-test") out. Looser tolerances may work better for larger hinges and tighter tolerances can be better in certain applications
+This is the overall tolerance of the hinge. It is the distance between all of the internal hinge features. 0.01 in works well for most applications, but if you want to try different options out you should print one of these [Tolerance Tests](https://www.printables.com/model/815843-print-in-place-tolerance-test) out. Looser tolerances may work better for larger hinges and tighter tolerances can be better in certain applications
 
 ### <a id="param-4"></a>4) Number of Knuckle Pairs
 
@@ -147,6 +147,6 @@ The offset of the hinge towards the center of the face. This lets you move the h
 
 ## Tips and General Thoughts
 
-1. I would highly recommend printing a [Tolerance Test]("https://www.printables.com/model/815843-print-in-place-tolerance-test") to see what tolerance will work best on your printer
+1. I would highly recommend printing a [Tolerance Test](https://www.printables.com/model/815843-print-in-place-tolerance-test) to see what tolerance will work best on your printer
 
 2. As you are designing with these hinges, you can put an axis on the hinge and use direct editing to rotate the hinge in the part. This lets you see how it will look as the hinge rotates or even design the hinged component in one rotation and then print it in another rotation

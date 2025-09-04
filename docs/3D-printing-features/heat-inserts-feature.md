@@ -2,8 +2,8 @@
 
 <p align="left">
   <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/heat1.png" width="250">
-  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/../demo-images/heat2.png" width="175">
-  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/../demo-images/heat3.png" width="250">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/heat2.png" width="175">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/heat3.png" width="250">
 </p>
 
 ## Feature Overview
@@ -31,7 +31,7 @@ The Property Manager Page for the heat inserts feature is shown below:
             --callout-text-color: red;       /* default number color */
             --callout-stroke-hover: blue;    /* hover circle color */
             --callout-text-hover: blue;">    <!-- hover number color -->
-  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/../images/heat-insert-pmp.png" alt="Heat insert cross section">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/heat-insert-pmp.png" alt="Heat insert cross section">
 
   <!-- Outer overlay: scalable and centered -->
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">

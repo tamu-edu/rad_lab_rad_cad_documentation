@@ -1,9 +1,9 @@
 # Flat Isogrid Feature
 
 <p align="left">
-  <img src="/demo-images/flat-iso1.png" width="225">
-  <img src="/demo-images/flat-iso2.png" width="175">
-  <img src="/demo-images/flat-iso3.png" width="260">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/flat-iso1.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/flat-iso2.png" width="175">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/flat-iso3.png" width="260">
 </p>
 
 ## Feature Overview
@@ -28,7 +28,7 @@ The Property Manager Page for the flat isogrid feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/flat-isogrid-pmp.png" alt="Flat Isogrid Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/flat-isogrid-pmp.png" alt="Flat Isogrid Property Manager Page">
 
   <!-- Scalable overlay aligned to the image -->
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
@@ -220,7 +220,7 @@ Default + hole diameter is meant to be used when you want the default settings b
 The settings for define all directly are shown below:
 
 <p align="center">
-  <img src="/images/define-all-directly-pmp.png" width="200">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/define-all-directly-pmp.png" width="200">
 </p>
 
 Minimum spar width is the width of the spar between triangles. By default it is 2 * material thickness

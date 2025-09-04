@@ -1,9 +1,9 @@
 # Spherical Isogrid Feature
 
 <p align="left">
-  <img src="/demo-images/iso-sphere1.png" width="225">
-  <img src="/demo-images/iso-sphere2.png" width="225">
-  <img src="/demo-images/iso-sphere3.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/iso-sphere1.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/iso-sphere2.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/iso-sphere3.png" width="225">
 </p>
 
 ## Feature Overview
@@ -28,7 +28,7 @@ The Property Manager Page for the spherical isogrid feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/spherical-isogrid-pmp.png" alt="Flat Isogrid Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/spherical-isogrid-pmp.png" alt="Flat Isogrid Property Manager Page">
 
   <!-- Scalable overlay aligned to the image -->
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">

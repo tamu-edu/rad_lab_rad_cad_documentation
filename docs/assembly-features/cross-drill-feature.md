@@ -1,9 +1,9 @@
 # Cross Drill Feature
 
 <p align="left">
-  <img src="/demo-images/cross1.png" width="225">
-  <img src="/demo-images/cross2.png" width="250">
-  <img src="/demo-images/cross3.png" width="200">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/cross1.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/cross2.png" width="250">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/cross3.png" width="200">
 </p>
 
 ## Feature Overview
@@ -24,7 +24,7 @@ The Property Manager Page for the cross drill feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/cross-drill-pmp.png" alt="Sphere Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/cross-drill-pmp.png" alt="Sphere Property Manager Page">
 
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
 

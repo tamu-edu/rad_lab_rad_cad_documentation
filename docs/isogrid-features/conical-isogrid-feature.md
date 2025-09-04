@@ -1,9 +1,9 @@
 # Conical Isogrid Feature
 
 <p align="left">
-  <img src="/demo-images/iso-cone1.png" width="250">
-  <img src="/demo-images/iso-cone2.png" width="175">
-  <img src="/demo-images/iso-cone3.png" width="250">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/iso-cone1.png" width="250">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/iso-cone2.png" width="175">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/iso-cone3.png" width="250">
 </p>
 
 ## Feature Overview
@@ -30,7 +30,7 @@ The Property Manager Page for the conical isogrid feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/conical-isogrid-pmp.png" alt="Flat Isogrid Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/conical-isogrid-pmp.png" alt="Flat Isogrid Property Manager Page">
 
   <!-- Scalable overlay aligned to the image -->
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">

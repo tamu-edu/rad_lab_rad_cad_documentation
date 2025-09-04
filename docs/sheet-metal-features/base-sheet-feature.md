@@ -1,9 +1,9 @@
 # Base Sheet Feature
 
 <p align="left">
-<img src="/demo-images/base-sheet3.png" width="175">
-  <img src="/demo-images/base-sheet1.png" width="225">
-  <img src="/demo-images/base-sheet2.png" width="175">
+<img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/base-sheet3.png" width="175">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/base-sheet1.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/base-sheet2.png" width="175">
 </p>
 
 ## Feature Overview
@@ -26,7 +26,7 @@ The Property Manager Page for the base sheet feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/base-sheet-pmp.png" alt="Cylinder Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/base-sheet-pmp.png" alt="Cylinder Property Manager Page">
 
   <!-- Scalable overlay aligned to the image -->
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">

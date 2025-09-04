@@ -1,9 +1,9 @@
 # Bump Bend Feature
 
 <p align="left">
-<img src="/demo-images/bump1.png" width="225">
-  <img src="/demo-images/bump2.png" width="225">
-  <img src="/demo-images/bump3.png" width="225">
+<img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/bump1.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/bump2.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/bump3.png" width="225">
 </p>
 
 ## Feature Overview
@@ -26,7 +26,7 @@ The Property Manager Page for the bump bend feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/bump-bend-pmp.png" alt="Cylinder Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/bump-bend-pmp.png" alt="Cylinder Property Manager Page">
 
   <!-- Scalable overlay aligned to the image -->
   <svg viewBox="0 0 120 110" preserveAspectRatio="xMidYMid meet" aria-hidden="true">

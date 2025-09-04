@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="demo-images/banner.png" width="750"></img>
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/banner.png" width="750"></img>
 </p>
 
 Welcome to RAD CAD! 

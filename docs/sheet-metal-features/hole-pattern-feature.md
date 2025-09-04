@@ -1,9 +1,9 @@
 # Hole Pattern Feature
 
 <p align="left">
-<img src="/demo-images/hole1.png" width="225">
-  <img src="/demo-images/hole2.png" width="225">
-  <img src="/demo-images/hole3.png" width="225">
+<img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/hole1.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/hole2.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/hole3.png" width="225">
 </p>
 
 ## Feature Overview
@@ -26,7 +26,7 @@ The Property Manager Page for the hole pattern feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/hole-pattern-pmp.png" alt="Hole Pattern Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/hole-pattern-pmp.png" alt="Hole Pattern Property Manager Page">
 
   <!-- Scalable overlay aligned to the image -->
   <svg viewBox="0 0 120 110" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
@@ -184,14 +184,14 @@ Powder coating a sheet metal part adds a little bit of thickness to the inside o
 There are several different hole pattern options in this feature. The different options are shown below. The differences between "checker pattern 1" and "checker pattern 2" is which hole starts at the center. The same difference is true for "domino pattern 1" and "domino pattern 2"
 
 <p align="center">
-  <img src="/images/hole-pattern-types.png" width="725">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/hole-pattern-types.png" width="725">
 </p>
 
 ### <a id="param-11"></a>11) Hole Diameter Type
 
 Hole diameter type allows you to determine how to set the diameter of the hole. One option is to define the hole diameter directly using the input box below this drop down menu. The other is to select one of the rivet presets from this drop down menu. 
 
-The rivet hole sizes are determined according to the McMaster-Carr recomended hole diameter sizes for [Aluminum Domed Head Blind Rivets]("https://www.mcmaster.com/products/rivets/rivets-2~/aluminum-domed-head-blind-rivets/"). If you are using a different rivet type you should use the define hole diameter directly option
+The rivet hole sizes are determined according to the McMaster-Carr recomended hole diameter sizes for [Aluminum Domed Head Blind Rivets](https://www.mcmaster.com/products/rivets/rivets-2~/aluminum-domed-head-blind-rivets/). If you are using a different rivet type you should use the define hole diameter directly option
 
 If you select the hole diameter according to a rivet type, the rivet feature will automatically detect your selection and match the rivets according to what type was selected in this hole pattern feature
 

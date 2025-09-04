@@ -1,9 +1,9 @@
 # 8020 Feature
 
 <p align="left">
-  <img src="/demo-images/80201.png" width="225">
-  <img src="/demo-images/80202.png" width="175">
-  <img src="/demo-images/80203.png" width="260">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/80201.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/80202.png" width="175">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/80203.png" width="260">
 </p>
 
 ## Feature Overview
@@ -28,7 +28,7 @@ The Property Manager Page for the 8020 feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/8020-pmp.png" alt="Cylinder Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/8020-pmp.png" alt="Cylinder Property Manager Page">
 
   <!-- Scalable overlay aligned to the image -->
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">

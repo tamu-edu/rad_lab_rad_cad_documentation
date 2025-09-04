@@ -1,9 +1,9 @@
 # Cylindrical Isogrid Feature
 
 <p align="left">
-  <img src="/demo-images/iso-cyl1.png" width="225">
-  <img src="/demo-images/iso-cyl2.png" width="250">
-  <img src="/demo-images/iso-cyl3.png" width="175">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/iso-cyl1.png" width="225">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/iso-cyl2.png" width="250">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/iso-cyl3.png" width="175">
 </p>
 
 ## Feature Overview
@@ -28,7 +28,7 @@ The Property Manager Page for the cylindrical isogrid feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/cylindrical-isogrid-pmp.png" alt="Flat Isogrid Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/cylindrical-isogrid-pmp.png" alt="Flat Isogrid Property Manager Page">
 
   <!-- Scalable overlay aligned to the image -->
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">

@@ -1,16 +1,16 @@
 # Rivets Feature
 
 <p align="left">
-<img src="/demo-images/rivets1.png" width="250">
-  <img src="/demo-images/rivets2.png" width="200">
-  <img src="/demo-images/rivets3.png" width="200">
+<img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/rivets1.png" width="250">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/rivets2.png" width="200">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/rivets3.png" width="200">
 </p>
 
 ## Feature Overview
 
 The rivet feature is used to insert rivets into an existing hole feature. This can be useful to confirm hole spacing will allow for rivet insertion. It is also useful to see if the rivet mandrel will fit into the assembly you have created to make sure your assembly is assemble-able
 
-These rivets are based on the McMaster-Carr [Aluminum Domed Head Blind Rivets]("https://www.mcmaster.com/products/rivets/rivets-2~/aluminum-domed-head-blind-rivets/")
+These rivets are based on the McMaster-Carr [Aluminum Domed Head Blind Rivets](https://www.mcmaster.com/products/rivets/rivets-2~/aluminum-domed-head-blind-rivets/)
 
 ---
 
@@ -26,7 +26,7 @@ The Property Manager Page for the rivet feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/rivets-pmp.png" alt="Sphere Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/rivets-pmp.png" alt="Sphere Property Manager Page">
 
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
 
@@ -109,7 +109,7 @@ A rivet is "popped" when it has been inserted and fixed to the sheets it is atta
 
 By default this will match the hole pattern's rivet diameter. If the hole pattern is set to "define diameter directly" and this type is set to "match hole pattern," it will just use the 3/32 rivets as the default. 
 
-You can also select a type of rivet to use directly if you want to look at what different rivet types might look like. All of these rivet options are based on the McMaster-Carr [Aluminum Domed Head Blind Rivets]("https://www.mcmaster.com/products/rivets/rivets-2~/aluminum-domed-head-blind-rivets/")
+You can also select a type of rivet to use directly if you want to look at what different rivet types might look like. All of these rivet options are based on the McMaster-Carr [Aluminum Domed Head Blind Rivets](https://www.mcmaster.com/products/rivets/rivets-2~/aluminum-domed-head-blind-rivets/)
 
 
 

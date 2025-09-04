@@ -1,9 +1,9 @@
 # Box Feature
 
 <p align="left">
-  <img src="/demo-images/box3.png" width="250">
-  <img src="/demo-images/box1.png" width="200">
-  <img src="/demo-images/box2.png" width="250">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/box3.png" width="250">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/box1.png" width="200">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/box2.png" width="250">
 </p>
 
 ## Feature Overview
@@ -26,7 +26,7 @@ The Property Manager Page for the box feature is shown below:
             --callout-text-color: red;       /* default number color */
             --callout-stroke-hover: blue;    /* hover circle color */
             --callout-text-hover: blue;">    <!-- hover number color -->
-  <img src="/images/box-pmp.png" alt="Actuator Cross Section">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/box-pmp.png" alt="Actuator Cross Section">
 
   <!-- Outer overlay: scalable and centered -->
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">

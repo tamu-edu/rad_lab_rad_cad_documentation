@@ -1,9 +1,9 @@
 # RAD Logo Feature
 
 <p align="left">
-  <img src="/demo-images/rad-logo1.png" width="250">
-  <img src="/demo-images/rad-logo2.png" width="200">
-  <img src="/demo-images/rad-logo3.png" width="200">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/rad-logo1.png" width="250">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/demo-images/rad-logo2.png" width="200">
+  <img src="./demo-images/rad-logo3.png" width="200">
 </p>
 
 ## Feature Overview
@@ -26,7 +26,7 @@ The Property Manager Page for the RAD Logo feature is shown below:
             --callout-text-color: red;
             --callout-stroke-hover: blue;
             --callout-text-hover: blue;">
-  <img src="/images/RAD-logo-pmp.png" alt="Cylinder Property Manager Page">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/images/RAD-logo-pmp.png" alt="Cylinder Property Manager Page">
 
   <!-- Scalable overlay aligned to the image -->
   <svg viewBox="0 0 120 110" preserveAspectRatio="xMidYMid meet" aria-hidden="true">

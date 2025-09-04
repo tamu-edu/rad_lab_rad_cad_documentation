@@ -1,16 +1,16 @@
 # Heat Insert Feature
 
 <p align="left">
-  <img src="/demo-images/heat1.png" width="250">
-  <img src="/demo-images/heat2.png" width="175">
-  <img src="/demo-images/heat3.png" width="250">
+  <img src="../demo-images/heat1.png" width="250">
+  <img src="../demo-images/heat2.png" width="175">
+  <img src="../demo-images/heat3.png" width="250">
 </p>
 
 ## Feature Overview
 
 The Heat Insert Feature inserts heat inserts at specific sketch points. It can handle sketch points from different sketches and on different faces, as long as the points are on a body
 
-It uses the McMaster-Carr [Tapered Heat-Set Inserts for Plastic]("https://www.mcmaster.com/products/inserts/threaded-insert-type~heat-set/tapered-heat-set-inserts-for-plastic-7/") heat inserts. However, if you also have the option to insert custom heat insert parameters if you are not using these heat inserts
+It uses the McMaster-Carr [Tapered Heat-Set Inserts for Plastic](https://www.mcmaster.com/products/inserts/threaded-insert-type~heat-set/tapered-heat-set-inserts-for-plastic-7/) heat inserts. However, if you also have the option to insert custom heat insert parameters if you are not using these heat inserts
 
 It also for some reason crashes way more than any other RAD CAD feature, so it is recommended to save every time before trying to use it
 
@@ -31,7 +31,7 @@ The Property Manager Page for the heat inserts feature is shown below:
             --callout-text-color: red;       /* default number color */
             --callout-stroke-hover: blue;    /* hover circle color */
             --callout-text-hover: blue;">    <!-- hover number color -->
-  <img src="/images/heat-insert-pmp.png" alt="Actuator Cross Section">
+  <img src="../images/heat-insert-pmp.png" alt="Actuator Cross Section">
 
   <!-- Outer overlay: scalable and centered -->
   <svg viewBox="0 0 120 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true">

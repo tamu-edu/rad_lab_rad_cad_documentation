@@ -3,7 +3,7 @@ The RAD CAD installer works by adding dynamic link library (dll) files to the So
 To start, download the zip file [here](downloadables/RAD_CAD_Installer_V3.5.zip).
 
 <p align="center">
-  <img src="demo-images/add-in.png" width="300">
+  <img src="https://tamu-edu.github.io/rad_lab_rad_cad_documentation/docs/demo-images/add-in.png" width="300"></img>
 </p>
 
 ## Installation Instructions
